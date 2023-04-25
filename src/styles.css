@@ -1,0 +1,112 @@
+header .day,
+.date {
+  color: black;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+heading { 
+  font-size: 50px;
+  text-align: center;
+}
+.currentTemp {
+ font-weight: 200;
+  font-size: 50px;
+}
+
+.center {
+  display: flex
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  flex-grow: 1;
+  border: 1px solid #e5890a;
+}
+
+button[type="submit"] {
+  background-color: #e5890a;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+button[type="submit-Location"]:hover {
+  background-color: black;
+}
+
+button[type="submit-location"] {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: black;
+}
+
+#result {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 40px;
+  color: #e5890a;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.weather {
+  color: #e5890a;
+  font-weight: normal;
+  text-align: center;
+  font-size: 20px;
+}
+
+.weather-data {
+  font-weight: lighter;
+  font-size: 20px;
+  text-align: center;
+}
+
+.weather-chart {
+  font-weight: bold;
+  font-size: 17px;
+  text-align: center;
+  line-height: 50px;
+}
+
+.temperature {
+  font-size: 20px;
+  font-weight: normal;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+
+.col {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 100;
+}
